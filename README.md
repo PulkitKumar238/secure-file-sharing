@@ -59,7 +59,7 @@ SQLALCHEMY_DATABASE_URI=sqlite:///fileshare.db
 MAIL_SERVER=smtp.example.com
 MAIL_PORT=587
 MAIL_USERNAME=your_email@example.com
-MAIL_PASSWORD=your_email_password
+MAIL_PASSWORD=your_email_password(16 bit)
 MAIL_USE_TLS=True
 MAIL_DEFAULT_SENDER=your_email@example.com
 BASE_URL=http://localhost:5000
@@ -117,3 +117,11 @@ gunicorn -w 4 "app:create_app()"
 4. Consider using a managed database service instead of SQLite
 
 5. Set up proper logging and monitoring
+
+Postman screenshots
+
+image.png
+image.png
+image.png
+image.png
+image.png
